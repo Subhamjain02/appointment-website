@@ -1,0 +1,16 @@
+h1{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700 !important;
+    font-size: 70px !important;
+    color: black;
+}
+.doc{
+    height: 90vh;
+    width: 100%;
+}
+.reg{
+    background-color: #437ae1 !important;
+    color: white !important;
+    height: 50px;
+    font-size: 15px !important;
+}
