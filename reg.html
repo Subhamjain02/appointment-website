@@ -26,6 +26,36 @@
      <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet"></head>
 </head>
 <body>
+  <nav class="navbar navbar-light navbar-expand-lg bg-light">
+    <div class="container ">
+      <a class="navbar-brand" href="#">
+        <img
+          src="img\logo.png"
+          height="50"
+          alt="MDB Logo"
+          loading="lazy"
+          
+        />
+      </a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto me-4">
+        <a class="nav-link active me-4" aria-current="page" href="#about">About us</a>
+        <a class="nav-link active  " href="#contactus">Contact us</a>
+      </div>
+    </div>
+</div>
+  </nav>
     <!-- Section: Design Block -->
 <section class="background-radial-gradient overflow-hidden">
     <style>
@@ -70,18 +100,16 @@
       }
     </style>
   
-    <div class="container px-4 py-2 px-md-5 text-center text-lg-start my-4">
-      <div class="row gx-lg-5 align-items-center mb-5">
-        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+    <div class="container px-4 py-2 px-md-5 text-center text-lg-start ">
+      <div class="row gx-lg-5 align-items-start mb-4">
+        <div class="col-lg-6 mb-4 mb-lg-0 pt-md-5 mt-md-5" style="z-index: 10">
+          <h1 class="mt-5 mb-4 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
             Provide your details<br />
             <span style="color: hsl(218, 81%, 75%)">and book Your slot</span>
           </h1>
           <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Temporibus, expedita iusto veniam atque, magni tempora mollitia
-            dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-            ab ipsum nisi dolorem modi. Quos?
+            this app directly links the person in need of help to a rehab centre and this whole process is done confidentially which makes the concerned person feel safe without the pressure of having to worry about the inevitable, "what will people think?? " question. 
+
           </p>
         </div>
   
@@ -89,7 +117,7 @@
           <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
           <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
   
-          <div class="card bg-glass">
+          <div class="card bg-glass mt-md-5">
             <div class="card-body px-4 py-5 px-md-5">
               <form>
                 <!-- 2 column grid layout with text inputs for the first and last names -->
@@ -126,20 +154,28 @@
                 <div class="form-outline mb-4">
                     <select class="form-control" aria-label="Default select example">
                         <option selected>Location</option>
-                        <option value="1">Dubai</option>
-                        <option value="2">Abu dhabi</option>
-                        <option value="3">Behren</option>
+                        <option value="1">Bhubaneshwar (10:30-1:30)</option>
+                        <option value="2">Khordha (2:30-5:30)</option>
+                        <option value="3">Cuttack (10:30-1:30)</option>
                       </select>
                   <label class="form-label" for="form3Example4"></label>
                 </div>
-                <div class="row">
+                
+                  <div class="form-check d-flex align-items-center justify-content-center">
+                  <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1"/>
+                  <label class="form-check-label" for="flexRadioDefault1">
                   <div class="card  mb-3 col ms-3 me-2" style="max-width: 18rem;" >
                     <div class="card-body p-4">
                       <h5 class="card-title text-center fs-4">Rs 3275</h5>
-                      <p class="card-text text-center fs-5 mb-0">For Drugs and Alcohol</p>
+                      <p class="card-text text-center fs-5 mb-0">For Drugs & Alcohol</p>
                       <p class="card-text text-center fs-6">(Blood Test, Breathe Test, Saliva Test, Urine Test)</p>
                     </div>
                   </div>
+                </label>
+              </div>
+              <div class="form-check d-flex align-items-center justify-content-center">
+              <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault2"/>
+                  <label class="form-check-label" for="flexRadioDefault2">
                 <div class="card  mb-3 col ms-3 me-2" style="max-width: 18rem;" >
                     <div class="card-body">
                       <h5 class="card-title text-center fs-4">Rs 6500</h5>
@@ -147,33 +183,40 @@
                       <p class="card-text text-center fs-6">(Spirometry Test, Chest X-ray, CT Scan, ECG)</p>
                     </div>
                   </div>
+                </label>
+              </div>
+
+            
                 
               
                 
                 
   
                 <!-- Checkbox -->
-                <div class="form-check d-flex justify-content-center mb-4">
-                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                <div class="form-check d-flex justify-content-center mb-4 mt-3">
+                  <input class="form-check-input me-2 " type="checkbox" value="" id="form2Example33" checked />
                   <label class="form-check-label" for="form2Example33">
                     Accept our terms and conditions
                   </label>
                 </div>
   
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">
-                  Confirm
-                </button>
-  
+                
                 <!-- Register buttons -->
                 
               </form>
+              <a href="Thanx.html">
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Confirm
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <!-- Section: Design Block -->
   <script>
    function fnChangeBorder(boxId)
