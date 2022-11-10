@@ -1,7 +1,13 @@
 h1{
     font-family: 'Zen Maru Gothic', sans-serif;
     font-weight: 700 !important;
-    font-size: 70px !important;
+    font-size: 5vw!important;
+    color: black;
+}
+.h1{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700 !important;
+    font-size: 5vw !important;
     color: black;
 }
 h2{
@@ -21,6 +27,20 @@ p{
     height: 90vh;
     width: 100%;
 }
+@media only screen and (max-width: 600px){
+    .h1{
+       font-size: 10vw !important;
+       
+    }
+    .inv{
+        display: none;
+    }
+    p{
+        margin-top: 20px !important;
+        text-align: center;
+    }
+}
+
 .reg{
     background-color: #437ae1 !important;
     color: white !important;
