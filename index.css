@@ -4,6 +4,19 @@ h1{
     font-size: 70px !important;
     color: black;
 }
+h2{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    color: black;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    color: black; 
+}
+
 .doc{
     height: 90vh;
     width: 100%;
@@ -14,3 +27,18 @@ h1{
     height: 50px;
     font-size: 15px !important;
 }
+
+.ct{
+    background-color: #f5f7fa;
+background-image: linear-gradient(90deg, #f5f7fa 0%, #b8c6db 100%);
+
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.myClickState {
+    background-color: lime;
+  }
