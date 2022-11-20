@@ -1,6 +1,3 @@
-html *{
-    font-family: 'Zen Maru Gothic', sans-serif;
-}
 h1{
     font-family: 'Zen Maru Gothic', sans-serif;
     font-weight: 700 !important;
@@ -47,16 +44,15 @@ p{
 }
 
 .reg{
-    background-color: #AF2AFE !important;
+    background-color: #437ae1 !important;
     color: white !important;
     height: 50px;
     font-size: 15px !important;
 }
 
 .ct{
-    background-color: #21D4FD;
-background-image: linear-gradient(90deg, #21D4FD 0%, #B721FF 100%);
-
+    background-color: #f5f7fa;
+background-image: linear-gradient(90deg, #f5f7fa 0%, #b8c6db 100%);
 
 }
 .image{
@@ -70,9 +66,4 @@ background-image: linear-gradient(90deg, #21D4FD 0%, #B721FF 100%);
   }
   .tick{
     height: 30vh;
-  }
-  .navbar-light{
-    background-color: #21D4FD;
-    background-image: linear-gradient(90deg, #21D4FD 0%, #B721FF 100%);
-    
   }
